@@ -1,0 +1,199 @@
+*{ font-family: 'Mochiy Pop P One', sans-serif;
+} 
+
+body{
+    background-image: url("img/partitura.jpg")
+}
+
+h2, p {
+    text-align: center;
+    font-size: 36px;
+    color:#f9faf8;
+}
+
+p {
+    font-size: 18px;
+    padding: 20px;
+}
+
+
+img{
+    border-radius: 35%;
+    border-style: double;
+    border-color: #0f0d0d;
+    box-shadow: 0 6px 12px 0 #808080 ;
+}
+
+
+/* top code of te html */
+header{
+    border-right:  15%;
+}
+
+.top{
+    background-color: #1f2937;
+    color: #ffffff;
+    height: 35vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030
+}
+
+.bar{
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #d81038;
+    border-radius: 15px 15px 0 0;
+}
+
+.bar h1 {
+    text-align: center;
+    align-self: center;
+}
+
+.logo{
+    padding: 0;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+.logoImg{
+    border-style: none;
+    box-shadow: none;
+
+}
+
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 12px;
+}
+
+nav{
+    padding: 1vw;
+}
+
+.a-nav{
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    color: black;
+}
+
+.top-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Presetation section */
+
+.presentation{
+    color: black;
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    margin: 20px;
+    border-radius: 20px;
+    border-style:solid;
+    border-color: #e5e7eb;
+    box-shadow: 0 8px 16px 0 #1f2937, 0 12px 24px 0 #f9faf8;
+}
+.presentation h2, .presentation  p{
+    color: black
+}
+.presentation  p{
+    padding: 50px;
+}
+
+
+
+/*Goal section */
+
+.goals{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    margin: 20px;
+    border-style:solid;
+    border-color: #000000;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+}
+.goals h2, .goals  p{
+    color: black;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.detail-goal{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    align-items: center;
+    text-align: center;
+}
+
+/* Paths*/
+
+.paths{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #1f2937;
+    margin: 20px;
+    border-style:solid;
+    border-color: #d81038;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 #1f2937, 0 12px 24px 0 #f9faf8;
+}
+
+.detail-paths{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    flex: 1 1 auto;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.pathCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.img{
+    border-radius: 50%;
+}
+
+
+/* footer */ 
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
